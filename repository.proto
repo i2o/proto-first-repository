@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "/proto-first-repo";
+
+service FirstService {
+  rpc First (FirstRequest) returns (FirstResponse) {
+  }
+}
+
+message FirstRequest {
+  string uuid = 1;
+}
+
+message FirstResponse {
+  string uuid = 1;
+}
