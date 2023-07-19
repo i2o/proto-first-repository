@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "/proto-first-repo";
+option go_package = "/protoFirstRepo";
 
 service FirstService {
   rpc First (FirstRequest) returns (FirstResponse) {

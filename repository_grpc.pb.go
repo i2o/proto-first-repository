@@ -4,7 +4,7 @@
 // - protoc             v3.18.1
 // source: proto-first-repo/repository.proto
 
-package proto_first_repo
+package protoFirstRepo
 
 import (
 	context "context"
